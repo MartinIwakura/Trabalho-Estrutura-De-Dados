@@ -17,11 +17,11 @@ struct Pessoa {
 
 void media(double nota) {
     if (nota >= 6) {
-        printf("Situacao: Aprovado\n");
+        printf("Situacao: Aprovado!\n");
     } else if (nota >= 5) {
-        printf("Situacao: Reprovado, Fazer prova final\n");
+        printf("Situacao: Nao passou, Fazer prova final.\n");
     } else {
-        printf("Situacao: Nao passou na prova final, Reprovado\n");
+        printf("Situacao: Reprovado.\n");
     }
 }
 
@@ -66,4 +66,3 @@ int main() {
 
     return 0;
 }
-
